@@ -10,6 +10,10 @@ MCP server for SparkSheets - AI-powered document platform integration for Claude
 npm install -g @sparksheets/mcp
 ```
 
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/sparksheets-sparksheets-mcp).
+
 ## Quick Setup
 
 Add to your `~/.claude.json`:
