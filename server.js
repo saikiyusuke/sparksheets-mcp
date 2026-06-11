@@ -118,10 +118,11 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
       }]
     };
   } catch (error) {
+    const detail = process.env.DEBUG ? `\n\nStack: ${error.stack}` : '';
     return {
       content: [{
         type: 'text',
-        text: `Error: ${error.message}\n\nStack: ${error.stack}`
+        text: `Error: ${error.message}${detail}`
       }],
       isError: true
     };

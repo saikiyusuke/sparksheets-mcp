@@ -3,7 +3,7 @@ displayName: SparkSheets MCP
 description: AI-powered document and spreadsheet platform MCP server. Use SparkSheets as a persistent memory and context store for Claude Code, Cursor, and Cline across sessions.
 version: "1.0.3"
 homepage: https://sparksheets.ai
-repository: https://github.com/saikiyusuke/sparksheets-mcp
+repository: https://github.com/asicojp/sparksheets-mcp
 license: MIT
 author: SparkSheets
 
