@@ -1,6 +1,6 @@
 {
   "name": "@sparksheets/mcp",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "MCP server for SparkSheets - AI-powered document platform integration for Claude Code, Cursor, and Cline",
   "main": "server.js",
   "bin": {
